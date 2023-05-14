@@ -12,17 +12,13 @@ function App() {
       <div className='main_container'>
         <Sidebar />
         <Switch>
-          <Route path="/login">
-            <Login />
-          </Route>
-          <Route path="">
-            <Products />
-          </Route>
+          <Route path="/products"><Products/></Route>
+          <Route path=""><Login/></Route>
         </Switch>
-      </div>
+      </div>  
 
     </div>
   );
 }
 
-export default App;
+export default App;
